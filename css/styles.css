@@ -30,11 +30,11 @@ body {
   color: #212121;
 }
 
+/* Стилі шапки сайту */
+
 .none {
   display: none;
 }
-
-/* Header styles */
 
 .logo-top {
   font-family: 'Raleway';
@@ -63,7 +63,11 @@ body {
   color: var(--blue-primary);
 }
 
-/* Header content styles */
+.header-menu-item.current {
+  color: var(--blue-primary);
+}
+
+/* Стилі головного блока */
 
 .hero {
   background-color: #2f303a;
@@ -92,7 +96,7 @@ body {
   cursor: pointer;
 }
 
-/* Info styles */
+/* Стилі інформаційного блока */
 
 .info h3 {
   font-weight: 700;
@@ -111,7 +115,7 @@ body {
   color: #757575;
 }
 
-/* What do we do styles */
+/* Стилі чим ми займаємося */
 
 h2 {
   font-weight: 700;
@@ -120,7 +124,7 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-/* team styles */
+/* Стилі наша команда */
 
 .team h4 {
   font-weight: 500;
@@ -136,7 +140,7 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-/* footer styles*/
+/* Стилі підвал*/
 
 .footer {
   background-color: #2f303a;
@@ -177,7 +181,9 @@ h2 {
   color: var(--blue-primary);
 }
 
-/* Portfolio styles*/
+/* ПОРТФОЛІО */
+
+/* Стилі меню портфоліо*/
 
 .portfolio-btn {
   font-weight: 700;
@@ -193,8 +199,10 @@ h2 {
 .portfolio-btn:hover,
 .portfolio-btn:focus         {
   color: #ffffff;
-  color: var(--blue-primary);
+  background-color:  var(--blue-primary);
 }
+
+/* Стилі наші роботи */
 
 .portfolio-item h3 {
   font-weight: 700;
