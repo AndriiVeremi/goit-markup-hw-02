@@ -26,6 +26,10 @@ body {
   color: #212121;
 }
 
+.none {
+  display: none;
+}
+
 /* Header styles */
 
 .logo-top {
