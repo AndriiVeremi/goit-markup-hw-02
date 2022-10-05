@@ -1,3 +1,8 @@
+:root {
+  --primary-color-text:#212121;
+  --blue-primary:#2196f3;
+}
+
 /* Reset styles */
 
 a {
@@ -15,11 +20,6 @@ address {
 
 button {
   border: none;
-}
-
-:root {
-  --primary-color-text:#212121;
-  --blue-primary:#2196f3;
 }
 
 /* Site */
