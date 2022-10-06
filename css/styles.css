@@ -16,7 +16,11 @@ address {
   font-style: normal;
 }
 
-/* Site */
+ul {
+  list-style: none;
+}
+
+/* Стилі сайту */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -45,10 +49,6 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-}
-
-ul.no-style {
-  list-style: none;
 }
 
 .header-menu-item:hover,
