@@ -23,6 +23,7 @@ body {
   font-style: normal;
   font-weight: 400;
   color: var(--primary-color-text);
+  margin: 0;
 }
 
 /* Стилі шапки сайту */
